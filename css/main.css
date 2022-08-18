@@ -15,6 +15,8 @@ html {
   color: #222;
   font-size: 1em;
   line-height: 1.4;
+  height: 100%;
+  font-family: 'Open Sans', sans-serif;
 }
 
 /*
@@ -260,18 +262,40 @@ textarea {
     page-break-after: avoid;
   }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 p{
   color: #222222;
 }
 
 div{
   box-sizing: border-box;
-  /*border: 1px solid #80FF1C;*/
+  border: 1px solid #80FF1C;
 }
 @media (max-width: 1110px) {
   .container {
     padding-left: 4vw !important;
     padding-right: 4vw !important;
+  }
+  .homepage-container{
+    padding: 00px 4vw 00px 4vw;
+  }
+  .games-list{
+    height: 100% !important;
   }
 }
 @media (max-width: 768px) {
@@ -296,11 +320,8 @@ div{
   }
   .gamecard{
     width: 100%!important;
-    height: 50vh !important;
+    height: 40vh !important;
   }
-  .games-list{
-    padding-top: 400px !important;
-    padding-bottom: 400px !important;
   }
   .hero-button-contaier{
     display: flex;
@@ -344,15 +365,13 @@ html{
 }
 
 .games-list{
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding:0vw 4vw 0vw 4vw;
-  height: 100%;
 }
 .wrapper{
-  padding-top: 80px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -523,10 +542,14 @@ html{
   color: white;
 }
 .games-container{
+  padding: 100px 4vw 100px 4vw;
   display: flex;
-  flex-direction: row;
-  gap: 24px;
   flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+
 }
 .trailer{
   width: 100%;
