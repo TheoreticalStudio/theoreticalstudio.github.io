@@ -307,6 +307,12 @@ div{
   .games-list{
     height: 100% !important;
   }
+  .hero-block{
+    display: flex;
+    flex-direction: column!important;
+    align-items: center;
+    justify-content: center;
+  }
 }
 @media (max-width: 768px) {
   .banner{
@@ -321,7 +327,6 @@ div{
     background-position: 100%  120% !important;
     background-size: 100% !important;
   }
-
   .hero{
     display: flex;
     flex-direction: column;
@@ -350,8 +355,7 @@ div{
     text-align: center;
   }
   .trailer{
-    width: 100%;
-    height: 300px;
+    height: 300px!important;
   }
   .page-navigation-container{
     flex-direction: column;
@@ -416,33 +420,37 @@ html{
   position: fixed;
   z-index: 1;
 }
+
 .studio-logo{
   width: 166px;
   height: auto;
 }
+
 .stage{
   width: 100%;
-  height: 706px;
   align-items: center;
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
-.vh-50{
-  height: 50vh;
-}
-.hero{
+
+.hero-block{
+  padding-top: 10vh;
+  padding-bottom: 10vh;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  flex-wrap: wrap-reverse;
+  gap: 4rem;
+  flex-wrap: wrap;
 }
+
 .hero-active-block{
   display: flex;
   flex-direction: column;
   gap: 2rem;
 }
+
 .hero-button-contaier{
   display: flex;
   flex-direction: row;
@@ -452,8 +460,6 @@ html{
   flex-wrap: wrap;
 }
 
-.text-block{
-}
 .gamecard{
   width: 342px;
   height: 470px;
@@ -469,6 +475,7 @@ html{
   background-size: cover;
   background-position: center;
 }
+
 .gamecard:hover .game-logo-middle{
   width: 80%;
   height: auto;
@@ -480,6 +487,7 @@ html{
   border-radius: 7px;
   transition: all 0.2s ease-in-out;
 }
+
 .gamecard:not(:hover){
   transition: width 0.4s ease-in-out;
 }
@@ -530,6 +538,13 @@ html{
   background-position: center;
 }
 
+.thumbnail-safethefluffy{
+  background-image: url("../img/banner-safethefluffy.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
 .follow-regrow{
   background-image: url("../img/regrow-follow.png");
   background-size: 70% auto;
@@ -561,7 +576,9 @@ html{
 
 }
 .trailer{
-  height: 500px;
+  height: 300px;
+  width: 100%;
+  max-width: 500px;
   border-radius: 16px;
 }
 
@@ -638,6 +655,13 @@ html{
   height: auto;
   border-radius: 12px;
 }
+.screenshot-vertical{
+  max-width:350px;
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+}
+
 .page-navigation-container{
   display: flex;
   flex-direction: row;
