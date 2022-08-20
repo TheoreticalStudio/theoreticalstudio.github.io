@@ -276,7 +276,13 @@ textarea {
 
 
 
-
+li{
+  color: #222222;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 150%;
+}
 
 p{
   color: #222222;
@@ -326,7 +332,6 @@ div{
     width: 100%!important;
     height: 40vh !important;
   }
-  }
   .hero-button-contaier{
     display: flex;
     flex-direction: column;
@@ -350,7 +355,6 @@ div{
   }
   .page-navigation-container{
     flex-direction: column;
-
   }
 }
 
