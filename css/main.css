@@ -514,28 +514,28 @@ body{
 }
 
 .bg-card-regrow{
-  background-image: url("../img/regrow-bg.jpg");
+  background-image: url("../img/regrow-bg.webp");
 }
 
 .bg-card-regrow2{
-  background-image: url("../img/regrow-bg.jpg");
+  background-image: url("../img/regrow-bg.webp");
 }
 .bg-card-safefluffy{
-  background-image: url("../img/safethefluffy-bg.jpg");
+  background-image: url("../img/safethefluffy-bg.webp");
 }
 .bg-card-safefluffy2{
-  background-image: url("../img/safethefluffy-bg.jpg");
+  background-image: url("../img/safethefluffy-bg.webp");
 }
 
 .thumbnail-regrow{
-  background-image: url("../img/banner-regrow.jpg");
+  background-image: url("../img/banner-regrow.webp");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
 
 .thumbnail-safethefluffy{
-  background-image: url("../img/banner-safethefluffy.jpg");
+  background-image: url("../img/banner-safethefluffy.webp");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
