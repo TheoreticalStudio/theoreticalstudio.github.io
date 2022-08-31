@@ -334,11 +334,11 @@ div{
     justify-content: center !important;
     align-items: center;
   }
-  .gamecard{
+  .game-card{
     width: 100%!important;
     height: 40vh !important;
   }
-  .hero-button-contaier{
+  .hero-button-container{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -404,7 +404,7 @@ body{
   flex-grow: initial;
 }
 
-.topbar{
+.top-bar{
   width: 100%;
   height: 80px;
   display: flex;
@@ -447,7 +447,7 @@ body{
   gap: 2rem;
 }
 
-.hero-button-contaier{
+.hero-button-container{
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -456,7 +456,7 @@ body{
   flex-wrap: wrap;
 }
 
-.gamecard{
+.game-card{
   width: 342px;
   height: 470px;
   background: #6083FF;
@@ -472,28 +472,28 @@ body{
   background-position: center;
 }
 
-.gamecard:hover .game-logo-middle{
+.game-card:hover .game-logo-middle{
   width: 80%;
   height: auto;
   transition: all 0.2s ease-in-out
 }
 
-.gamecard:hover{
+.game-card:hover{
   box-shadow: 0px 8px 0px #000000;
   border-radius: 7px;
   transition: all 0.2s ease-in-out;
 }
 
-.gamecard:not(:hover){
+.game-card:not(:hover){
   transition: width 0.4s ease-in-out;
 }
 
-.gamecard:not(hover) .game-logo-middle{
+.game-card:not(hover) .game-logo-middle{
   transition: all 0.2s ease-in-out
 }
 
 
-.gamecard-info{
+.game-card-info{
   display: flex;
   flex-direction: row;
   gap: 1rem;
@@ -520,7 +520,7 @@ body{
 .bg-card-regrow2{
   background-image: url("../img/regrow-bg.webp");
 }
-.bg-card-safefluffy{
+.bg-card-save-the-fluffy{
   background-image: url("../img/safethefluffy-bg.webp");
 }
 .bg-card-safefluffy2{
@@ -576,6 +576,7 @@ body{
   width: 100%;
   max-width: 500px;
   border-radius: 16px;
+  border: 0;
 }
 
 .banner{
@@ -702,7 +703,7 @@ body{
   margin: 0;
 }
 
-.feedback-subblock{
+.feedback-sub-block{
   display: flex;
   flex-direction: column;
   align-items: center;
