@@ -709,3 +709,9 @@ body{
   align-items: center;
   gap: 1rem;
 }
+
+.table{
+  width: 100%;
+  overflow-x: scroll;
+  overflow: scroll;
+}
