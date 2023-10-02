@@ -415,6 +415,7 @@ body{
   align-items: center;
   position: fixed;
   z-index: 1;
+  gap: 2rem;
 }
 
 .studio-logo{
