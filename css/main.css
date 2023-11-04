@@ -602,13 +602,16 @@ body{
   align-items: center;
   display: flex;
   justify-content: center;
-  width: 70px;
-  height: 70px;
+  /*width: 70px;*/
+  /*height: 70px;*/
+  padding: 0px;
+  transition: all 0.1s ease-in-out;
 }
 .sm-button:hover{
   content: '';
   background: rgba(256, 256, 256, 0.4);
-  transition: all 0.2s ease-in-out
+  transition: all 0.1s ease-in-out;
+  transform: scale(1.1)
 }
 
 .follow-block{
@@ -625,13 +628,15 @@ body{
 }
 
 .store-button{
+  transition: all 0.1s ease-in-out;
 }
 .store-button:hover{
+  transition: all 0.1s ease-in-out;
   transform: scale(1.1)
 }
 
 .sm-icon{
-  width: 50px;
+  width: 60px;
   height: auto;
 }
 .platform-icon{
@@ -646,6 +651,10 @@ body{
   gap: 30px;
   flex-wrap: wrap;
   flex-shrink: 2;
+  /*display: grid;*/
+  /*grid-gap: 30px;*/
+  /*grid-template-columns: repeat(4, 1fr);*/
+  /*grid-template-columns: repeat(auto-fit, minmax(100px, 300px));*/
 }
 .screenshot{
   width: 100%;
@@ -682,6 +691,7 @@ body{
 
 .first-container-padding{
   padding-top: 80px;
+  min-height: 90vh;
 }
 
 .support-block{
