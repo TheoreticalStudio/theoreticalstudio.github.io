@@ -28,9 +28,9 @@
 }
 
 @media(min-width: 767px) {
-.screenshot-container{
-  grid-template-columns: repeat(2, 1fr);
-}
+  .screenshot-container{
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 
 @media(min-width: 1023px) {
@@ -48,6 +48,13 @@
     justify-content: center;
     padding: 0 0 0 0 !important;
     height: 60vh !important;
+  }
+  .thumbnail{
+    scale: 1;
+  }
+  .thumbnail:hover{
+    scale: 1;
+    animation: none;
   }
 
   .follow-regrow {
@@ -69,7 +76,7 @@
 
   .hero-button-container {
     display: flex;
-    flex-direction: column;
+    /*flex-direction: column;*/
     align-items: center;
     justify-content: center;
     gap: 24px;
@@ -92,7 +99,7 @@
   }
 
   .page-navigation-container {
-    flex-direction: column;
+    /*flex-direction: column;*/
   }
 }
 
