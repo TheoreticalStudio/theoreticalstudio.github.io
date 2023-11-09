@@ -1,0 +1,99 @@
+
+@media (min-width: 1440px) {
+  .trailer {
+    max-width: 560px;
+  }
+}
+
+@media (max-width: 1110px) {
+  .container {
+    padding-left: 4vw !important;
+    padding-right: 4vw !important;
+  }
+
+  .homepage-container {
+    padding: 00px 4vw 00px 4vw;
+  }
+
+  .games-list {
+    height: 100% !important;
+  }
+
+  .hero-block {
+    display: flex;
+    flex-direction: column !important;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+@media(min-width: 767px) {
+.screenshot-container{
+  grid-template-columns: repeat(2, 1fr);
+}
+}
+
+@media(min-width: 1023px) {
+  .screenshot-container{
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+
+@media (max-width: 768px) {
+  .banner {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 0 0 0 !important;
+    height: 60vh !important;
+  }
+
+  .follow-regrow {
+    background-position: 100% 120% !important;
+    background-size: 100% !important;
+  }
+
+  .hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center !important;
+    align-items: center;
+  }
+
+  .game-card {
+    width: 100% !important;
+    height: 40vh !important;
+  }
+
+  .hero-button-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+  }
+
+  .hero-active-block {
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .follow-block {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .trailer {
+    /*height: 300px !important;*/
+  }
+
+  .page-navigation-container {
+    flex-direction: column;
+  }
+}
+
+
