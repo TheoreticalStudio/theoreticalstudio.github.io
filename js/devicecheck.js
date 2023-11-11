@@ -18,8 +18,8 @@
 //   }
 // });
 document.addEventListener("DOMContentLoaded", function() {
-  var button1 = document.getElementById("AppStore");
-  var button2 = document.getElementById("GooglePlay");
+  var AppStore = document.getElementById("AppStore");
+  var GooglePlay = document.getElementById("GooglePlay");
 
   var platform = navigator.platform.toLowerCase();
 
