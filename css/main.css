@@ -346,16 +346,16 @@ footer {
   gap: 1rem;
 }
 
-/*.store-button {*/
-/*  transition: all 0.1s ease-in-out;*/
-/*  display: none;*/
-/*}*/
+.store-button {
+  transition: all 0.1s ease-in-out;
+  display: none;
+}
 
-/*.store-button:hover {*/
-/*  transition: all 0.1s ease-in-out;*/
-/*  transform: scale(1.1)*/
-/*  display: none;*/
-/*}*/
+.store-button:hover {
+  transition: all 0.1s ease-in-out;
+  transform: scale(1.1);
+  display: none;
+}
 
 .sm-icon {
   width: 60px;
@@ -608,6 +608,6 @@ footer {
   padding: 64px 0;
 }
 .on{
-  display: block;
+  display: block !important;
 }
 
