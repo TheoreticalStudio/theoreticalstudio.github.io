@@ -12,8 +12,8 @@ document.addEventListener("DOMContentLoaded", function() {
 
   // В зависимости от типа устройства активируем соответствующую кнопку
   if (isAppleDevice) {
-    AppStore.classList.add("active");
+    AppStore.classList.add("store-button");
   } else if (isAndroidDevice) {
-    GooglePlay.classList.add("active");
+    GooglePlay.classList.add("store-button");
   }
 });
