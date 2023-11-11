@@ -608,6 +608,6 @@ footer {
   padding: 64px 0;
 }
 .on{
-  display: block !important;
+  display: block;
 }
 
