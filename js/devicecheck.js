@@ -29,10 +29,16 @@ document.addEventListener("DOMContentLoaded", function() {
   // Проверка, является ли устройство устройством Android
   var isAndroidDevice = /android/.test(platform);
 
-  // В зависимости от типа устройства активируем соответствующую кнопку
+  // Проверка, является ли устройство компьютером
+  var isDesktop = !isAppleDevice && !isAndroidDevice;
+
+  // В зависимости от типа устройства активируем соответствующие кнопки
   if (isAppleDevice) {
     AppStore.classList.add("store-button");
   } else if (isAndroidDevice) {
-    GooglePlay.classList.add("store-button");
+    GooglePlay.classList.add("off");
+  } else if (isDesktop) {
+    AppStore.classList.add("store-button");
+    GooglePlay.classList.add("off");
   }
 });

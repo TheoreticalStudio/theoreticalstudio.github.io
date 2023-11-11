@@ -605,3 +605,7 @@ footer {
   height: 100%;
   padding: 64px 0;
 }
+.off{
+  display: none;
+}
+
