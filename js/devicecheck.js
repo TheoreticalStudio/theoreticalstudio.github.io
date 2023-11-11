@@ -34,11 +34,11 @@ document.addEventListener("DOMContentLoaded", function() {
 
   // В зависимости от типа устройства активируем соответствующие кнопки
   if (isAppleDevice) {
-    AppStore.classList.add("store-button");
+    AppStore.classList.add("on");
   } else if (isAndroidDevice) {
-    GooglePlay.classList.add("off");
+    GooglePlay.classList.add("on");
   } else if (isDesktop) {
-    AppStore.classList.add("store-button");
-    GooglePlay.classList.add("off");
+    AppStore.classList.add("on");
+    GooglePlay.classList.add("on");
   }
 });
