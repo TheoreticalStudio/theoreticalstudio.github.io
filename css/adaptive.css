@@ -3,6 +3,10 @@
   .trailer {
     max-width: 500px;
   }
+  .modal-btn {
+    bottom: 2rem !important;
+    right: 3rem !important;
+  }
 }
 
 @media (max-width: 1110px) {
@@ -17,13 +21,6 @@
 
   .games-list {
     height: 100% !important;
-  }
-
-  .hero-block {
-    display: flex;
-    flex-direction: column !important;
-    align-items: center;
-    justify-content: center;
   }
 }
 

@@ -11,6 +11,7 @@
   <link rel="stylesheet" href="css/main.css">
   <link rel="stylesheet" href="css/adaptive.css">
   <link rel="stylesheet" href="css/Heroes.css">
+  <link rel="stylesheet" href="css/banners.css">
   <link rel="shortcut icon" href="/favicon.ico">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -22,6 +23,7 @@
     rel="stylesheet">
   <script src="js/Gallery.js"></script>
   <script src="js/Heroes.js"></script>
+  <script src="js/modal.js"></script>
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
   <meta name="description"
@@ -37,7 +39,7 @@
   <meta property="og:image" content="site-thumbnail.jpg">
   <meta property="og:url" content="https://theoreticalstudio.com/regrow.html">
   <meta property="og:site_name" content="Theoretical Studio">
-
+  <script src="js/devicecheck.js"></script>
   <script src="js/main.js"></script>
   <!-- Google Tag Manager -->
   <script>(function (w, d, s, l, i) {
@@ -57,6 +59,29 @@
 
 
 </head>
+<a id="openModalBtn" class="modal-btn">
+  <span>Free gift</span>
+  <img src="img/gift.png" alt="gift" class="gift-icon">
+</a>
+
+<div id="modal" class="modal container">
+  <div class="gift-modal-content">
+    <span id="closeModalBtn" class="close">&times;</span>
+    <h2>Activate promocode</h2>
+
+    <p>Activate promo code in game .<br> Go to settings enter promo code and click activate.</p>
+    <div class="gift-block">
+      <div class="reward-quantity">
+        <img src="img/emerald-icon.svg">
+        <span class="gift-text">120</span>
+      </div>
+      <img src="img/Emeralds.png" class="gift-thumbnal">
+    </div>
+    <p>Promocode</p>
+    <span class="promocode">15767v</span>
+  </div>
+</div>
+
 <body class="wrapper">
 <div class="top-bar">
   <a href="index.html">
@@ -64,25 +89,28 @@
   </a>
   <a href="about.html" class="page-text-button">About company</a>
 </div>
-<div class="stage thumbnail-regrow first-container-padding">
-  <div class="container hero-block">
-    <div class="hero-active-block">
-      <img src="img/regrow-logo.svg" alt="Regrow logo" class="game-logo-big">
-      <div class="hero-button-container">
-        <a href="https://apps.apple.com/ru/app/regrow/id1609515393"><img src="img/appstore-button.svg" alt="AppStore button" class="store-button" id="AppStore"></a>
-        <a href="https://play.google.com/store/apps/details?id=com.TheoreticalStudio.Regrow"><img src="img/googleplay-button.svg" alt="Play Market button" class="store-button" id="GooglePlay"></a>
+<section class="regrow-hero">
+  <video width="100%" height="100%" muted="muted" class="hero-video" loop="loop" autoplay="" poster="img/En.mp4"> <source src="img/En.mp4" type="video/mp4"><track src="captions_en.vtt" kind="captions" srclang="en" label="english_captions"></video>
+  <div class="container">
+      <div class="hero-block-new">
+        <div class="hero-active-block">
+          <img src="img/regrow-logo.svg" alt="Regrow logo" class="game-logo-big">
+          <div class="hero-button-container">
+            <a href="https://apps.apple.com/ru/app/regrow/id1609515393"><img src="img/appstore-button.svg" alt="AppStore button" class="store-button" id="AppStore"></a>
+            <a href="https://play.google.com/store/apps/details?id=com.TheoreticalStudio.Regrow"><img src="img/googleplay-button.svg" alt="Play Market button" class="store-button" id="GooglePlay"></a>
+          </div>
+        </div>
+        <iframe src="https://www.youtube.com/embed/VXtQat3H5Yk" title="Regrow" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture;" allowfullscreen class="trailer"></iframe>
       </div>
-    </div>
-    <iframe src="https://www.youtube.com/embed/VXtQat3H5Yk" title="Regrow" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture;" allowfullscreen class="trailer"></iframe>
   </div>
-</div>
+</section>
 <div class="container page-navigation-container">
   <a href="regrow-privacy-policy.html" class="page-text-button" target="_blank">Privacy policy</a>
   <a href="support.html" class="page-text-button">Support</a>
   <a href="account.html" class="page-text-button">Delete account</a>
 </div>
 <section class="heroes-section">
-  <div class="container hero-container-wrapper">
+  <div class="container">
 <!--    <span class="big-headline">Regrow creatures</span>-->
     <div class="hero-container">
       <div class="hero-details fadeInLeft">
@@ -263,7 +291,7 @@
             <a href="https://discord.gg/eZYmhc3DaD" class="sm-button" target="_blank">
               <img src="img/tex_ui_Discord.svg" alt="sm-discord" class="sm-icon">
             </a>
-            <a href="https://t.me/regrow_arena" class="sm-button" target="_blank">
+            <a href="https://t.me/regrow_arena_en" class="sm-button" target="_blank">
               <img src="img/tex_ui_Telegram.svg" alt="Telegram icon" class="sm-icon">
             </a>
             <a href="https://instagram.com/regrowgame?igshid=OGQ5ZDc2ODk2ZA==" class="sm-button" target="_blank">
