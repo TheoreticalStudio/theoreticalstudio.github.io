@@ -606,10 +606,10 @@ footer {
   padding: 64px 0;
 }
 .on{
-  display: block;
+  display: block !important;
 }
 
 .off{
-  display: none;
+  display: none !important;
 }
 
