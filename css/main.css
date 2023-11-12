@@ -348,13 +348,11 @@ footer {
 
 .store-button {
   transition: all 0.1s ease-in-out;
-  display: none;
 }
 
 .store-button:hover {
   transition: all 0.1s ease-in-out;
   transform: scale(1.1);
-  display: none;
 }
 
 .sm-icon {
@@ -608,6 +606,10 @@ footer {
   padding: 64px 0;
 }
 .on{
-  display: block !important;
+  display: block;
+}
+
+.off{
+  display: none;
 }
 
