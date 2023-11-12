@@ -321,9 +321,9 @@ footer {
 .follow-button-container {
   display: flex;
   flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   gap: 1rem;
+  width: 100%;
 }
 
 .store-button {

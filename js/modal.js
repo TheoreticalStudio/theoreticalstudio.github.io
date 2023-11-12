@@ -5,6 +5,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
   openModalBtn.addEventListener("click", function() {
     modal.style.display = "block";
+    openModalBtn.style.display = "none";
   });
 
   closeModalBtn.addEventListener("click", function() {
