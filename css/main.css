@@ -49,7 +49,7 @@ p {
   font-weight: 500;
   font-size: 18px;
   line-height: 150%;
-  margin: 0;
+  margin-top: 1.5rem;
 }
 
 /*div {*/
@@ -86,6 +86,14 @@ section{
   gap: 2rem;
 }
 
+.wrapper-regrow {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /*gap: 2rem;*/
+}
+
+
 .full-height {
   height: 100%;
 }
@@ -118,8 +126,8 @@ section{
 }
 
 .studio-logo {
-  width: 166px;
-  height: auto;
+  width: auto;
+  height: 34px;
 }
 
 .stage {
@@ -465,7 +473,10 @@ footer {
   height: 100%;
   background-color: rgba(0, 0, 0, 0.7);
   cursor: pointer;
-}
+
+  overflow-y: scroll;
+  inset: 0; }
+
 
 /*.modal-content {*/
 /*  display: block;*/
@@ -613,3 +624,28 @@ footer {
   display: none !important;
 }
 
+
+.regrow-page-menu{
+  position: absolute;
+  width: 100%;
+  padding: 0rem 0rem 0rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+  /*backdrop-filter: blur(12px);*/
+  z-index: 1;;
+  text-decoration: none;
+}
+.regrow-page-menu a{
+  color: rgba(255, 255, 255, 0.66);
+  padding: 1rem;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.regrow-page-menu a:hover{
+  color: #ffffff;
+  padding: 1rem;
+}

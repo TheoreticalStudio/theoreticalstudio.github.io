@@ -17,8 +17,8 @@
 .heroes-thumbnail-section{
   padding: 2rem 0;
   background-color: #262d1b;
-  position: relative;
-  top: -2rem;
+  /*position: relative;*/
+  /*top: -2rem;*/
 }
 
 .hero-container {

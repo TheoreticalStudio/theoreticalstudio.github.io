@@ -60,6 +60,7 @@
   color: white;
   border-radius: 0.5rem;
   gap: 6px;
+  padding: 2px 4px 2px 4px;
 }
 .sm-button-left:hover{
   background-color: #464646;

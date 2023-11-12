@@ -8,10 +8,10 @@
   position: fixed;
   bottom: 10px;
   right: 10px;
-  padding: 10px;
+  padding: 0px 0px 0px 1.5rem;
   background: linear-gradient(270deg, #FFF -63.52%, #9EFF00 100%);
   color: #090909;
-  /*background-color: #184BE5;*/
+  /* background-color: #184BE5; */
   font-weight: 900;
   cursor: pointer;
   text-transform: uppercase;
@@ -20,7 +20,7 @@
   flex-direction: row;
   gap: 1rem;
   align-items: center;
-  border-radius: 1rem;
+  border-radius: 4rem;
   border: solid 4px #3a2c08;
   font-size: 1rem;
   scale: 1;
@@ -74,6 +74,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  /*gap: 1rem;*/
 }
 
 
@@ -90,9 +91,10 @@
 }
 
 .gift-thumbnal{
-  width: 100%;
-  max-width: 250px;
-  height: auto;
+  /*max-width: 250px;*/
+  /*height: auto;*/
+  height: 150px;
+  width: auto;
 }
 .gift-block{
   display: flex;
