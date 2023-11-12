@@ -7,6 +7,10 @@
     bottom: 2rem !important;
     right: 3rem !important;
   }
+  .hero-block{
+    flex-direction: row;
+
+  }
 }
 
 @media (max-width: 1110px) {

@@ -24,6 +24,7 @@ document.addEventListener("DOMContentLoaded", function() {
   var googlePlay = document.getElementById("googlePlay");
 
   var platform = navigator.platform.toLowerCase();
+  var userAgent = navigator.userAgent.toLowerCase();
 
   var isAppleDevice = /iphone|ipad|ipod/.test(platform);
   var isAndroidDevice = /android/.test(platform);
