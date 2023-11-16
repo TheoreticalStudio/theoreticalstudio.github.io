@@ -1,5 +1,6 @@
 <!doctype html>
-<html lang="en" prefix="og: https://ogp.me/ns#">
+<!--<html lang="en-EN" prefix="og: https://ogp.me/ns#">-->
+<html lang="en-EN">
 
 
 <head>
@@ -27,7 +28,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
   <meta name="description" content="Regrow is a fresh and easy-going auto battler. Collect different creatures from melons, combine them to create the best team and play with other people. Every creature you find can be grown into bigger, better and cuter one!">
   <meta name="robots" content="index,follow">
-  <meta name="copyright" content="ИП Шишов Глеб Александрович">
+  <meta name="copyright" content="LLP Theoretical Studio">
 
   <meta property="og:locale" content="en_EN">
   <meta property="og:type" content="website">
@@ -56,13 +57,13 @@
 </head>
 <a id="openModalBtn" class="modal-btn">
   <span>Free gift</span>
-  <img src="img/gift.png" alt="gift" class="gift-icon">
+  <img src="img/gift.png" alt="gift" class="gift-icon" loading="lazy">
 </a>
 <div id="modal" class="modal container">
   <div class="gift-modal-content">
     <div>
     <span id="closeModalBtn" class="close">&times;</span>
-    <h2>Activate promocode</h2>
+    <h2>Activate promo code</h2>
     <p>Rare banner + Avatar</p>
     </div>
     <div class="gift-block">
@@ -102,15 +103,15 @@
     <span>Subscribe!</span>
     <div class="social-list">
       <a href="https://discord.gg/eZYmhc3DaD" class="sm-button-left" target="_blank">
-        <img src="img/icons/icon-discord.svg" alt="sm-discord" class="sm-icon-left">
+        <img src="img/icons/icon-discord.svg" alt="sm-discord" class="sm-icon-left" loading="lazy">
         <span>Discord</span>
       </a>
       <a href="https://t.me/regrow_arena_en" class="sm-button-left" target="_blank">
-        <img src="img/icons/icon-tg.svg" alt="Telegram icon" class="sm-icon-left">
+        <img src="img/icons/icon-tg.svg" alt="Telegram icon" class="sm-icon-left" loading="lazy">
         <span>Telegram</span>
       </a>
       <a href="https://instagram.com/regrowgame?igshid=OGQ5ZDc2ODk2ZA==" class="sm-button-left" target="_blank">
-        <img src="img/icons/icon-inst.svg" alt="twitter icon" class="sm-icon-left">
+        <img src="img/icons/icon-inst.svg" alt="twitter icon" class="sm-icon-left" loading="lazy">
         <span>Instagram</span>
       </a>
     </div>
@@ -147,7 +148,7 @@
       </div>
       <div class="hero-image">
         <div class="hero-img-block">
-          <img id="heroImage" class="fly" src="img/Heroes/bee-test.png" alt="Hero Image">
+          <img id="heroImage" class="fly" src="img/Heroes/bee-test.png" alt="Hero Image" loading="lazy">
           <div class="hero-shadow fly">.</div>
         </div>
       </div>
@@ -160,46 +161,46 @@
       <div class="hero-group-header">
         <h3>Attack</h3>
         <div class="hero-group">
-          <div class="hero-thumbnail" onmousemove="updateHero('Bumble bee', 'Attacks the enemy with the least health\n'+
+          <div class="hero-thumbnail" onclick="updateHero('Bumble bee', 'Attacks the enemy with the least health\n'+
 'Gets bonus +3 damage for every ally Bee'+
 'Gets bonus +3 damage for every ally Bee', 'img/Heroes/bee-test.png')">
-            <img src="img/HeroesThumbnail/bumble_bee_t3.png" alt="Hero 1">
+            <img src="img/HeroesThumbnail/bumble_bee_t3.png" alt="Hero 1" loading="lazy">
           </div>
-          <div class="hero-thumbnail" onmousemove="updateHero('Bud', '30% chance of dealing 4x damage\n'+
+          <div class="hero-thumbnail" onclick="updateHero('Bud', '30% chance of dealing 4x damage\n'+
 'Gets +2 bonus damage if placed closer to the enemy', 'img/Heroes/Bud.png')">
             <img src="img/HeroesThumbnail/bud_t3.png" alt="Hero 3">
           </div>
-          <div class="hero-thumbnail" onmouseenter="updateHero('Da bomb', 'Consumes all its health to deal damage to a random target\n'+
+          <div class="hero-thumbnail" onclick="updateHero('Da bomb', 'Consumes all its health to deal damage to a random target\n'+
 'For every ally bomb in the 1 tile range gets a bonus 50% health', 'img/Heroes/Bomb.png')">
             <img src="img/HeroesThumbnail/da_bomb_t3.png" alt="Hero 4">
           </div>
-          <div class="hero-thumbnail" onmouseenter="updateHero('Ghost', 'Has a 50% chance to lifesteal 30 health after attack\n'+
+          <div class="hero-thumbnail" onclick="updateHero('Ghost', 'Has a 50% chance to lifesteal 30 health after attack\n'+
 'Loses 20% attack speed for every ally creature without damage', 'img/Heroes/Ghost.png')">
             <img src="img/HeroesThumbnail/ghost_t3.png" alt="Hero 4">
           </div>
-          <div class="hero-thumbnail" onmouseenter="updateHero('Grimm', '20% chance of dealing 6x critical damage\n'+
+          <div class="hero-thumbnail" onclick="updateHero('Grimm', '20% chance of dealing 6x critical damage\n'+
 'Loses 5 damage for every ally, but gains attack speed', 'img/Heroes/Grimm.png')">
             <img src="img/HeroesThumbnail/grimm_t3.png" alt="Hero 4">
           </div>
-          <div class="hero-thumbnail" onmouseenter="updateHero('Angry stump', 'With every attack Stump loses 5 health, but gets bonus attack up to +20\n'+
+          <div class="hero-thumbnail" onclick="updateHero('Angry stump', 'With every attack Stump loses 5 health, but gets bonus attack up to +20\n'+
 'Loses 5 damage for every ally in front of Stump', 'img/Heroes/Stump.png')">
             <img src="img/HeroesThumbnail/angry_stump_t3.png" alt="Hero 4">
           </div>
-          <div class="hero-thumbnail" onmouseenter="updateHero('Mole gangster', 'Deals 50% splash to enemies within 1 tile range from target\n'+
+          <div class="hero-thumbnail" onclick="updateHero('Mole gangster', 'Deals 50% splash to enemies within 1 tile range from target\n'+
 'Has a very unstable attack speed\n'+
 'Loses 50% damage for every other Mole on your side', 'img/Heroes/Mole.png')">
             <img src="img/HeroesThumbnail/mole_gangster_t3.png" alt="Hero 4">
           </div>
-          <div class="hero-thumbnail" onmouseenter="updateHero('Shroomi', '50% chance of splash damage\n'+
+          <div class="hero-thumbnail" onclick="updateHero('Shroomi', '50% chance of splash damage\n'+
 '+5 bonus damage for neighbor Shroom', 'img/Heroes/Shroomi.png')">
             <img src="img/HeroesThumbnail/shroomi_t3.png" alt="Hero 4">
           </div>
-          <div class="hero-thumbnail" onmouseenter="updateHero('Small incident', 'Targets a random enemy\n'+
+          <div class="hero-thumbnail" onclick="updateHero('Small incident', 'Targets a random enemy\n'+
 'Attacks +1 additional target\n'+
 '-20% chance of extra attack for every neighbor', 'img/Heroes/Magma.png')">
             <img src="img/HeroesThumbnail/small_incident_t3.png" alt="Hero 4">
           </div>
-          <div class="hero-thumbnail" onmouseenter="updateHero('Flower Phenix', 'Has a 50% chance to resurrect after death\n'+
+          <div class="hero-thumbnail" onclick="updateHero('Flower Phenix', 'Has a 50% chance to resurrect after death\n'+
 'Gets bonus 2x health if Angel is present and 2x damage if Devil is present', 'img/Heroes/Phenix.png')">
             <img src="img/HeroesThumbnail/sprouting_flower_t3.png" alt="Hero 4">
           </div>
@@ -208,15 +209,15 @@
       <div class="hero-group-header">
         <h3>Defence</h3>
         <div class="hero-group">
-          <div class="hero-thumbnail" onmouseenter="updateHero('Dummy', '+2 damage for allies in 1 tile range after getting hit\n'+
+          <div class="hero-thumbnail" onclick="updateHero('Dummy', '+2 damage for allies in 1 tile range after getting hit\n'+
 '+25 bonus health for every ally Dummy', 'img/Heroes/Dummy.png')">
             <img src="img/HeroesThumbnail/dummy_t3.png" alt="Hero 4">
           </div>
-          <div class="hero-thumbnail" onmouseenter="updateHero('Shell', '+50 bonus health for every plant behind Shell\n'+
+          <div class="hero-thumbnail" onclick="updateHero('Shell', '+50 bonus health for every plant behind Shell\n'+
 'Has a higher chance of being targeted by enemies', 'img/Heroes/Shell.png')">
             <img src="img/HeroesThumbnail/shell_t3.png" alt="Hero 5">
           </div>
-          <div class="hero-thumbnail" onmouseenter="updateHero('Cacto', 'Has a 60% chance to return damage to the attacker (up to 25 damage)', 'img/Heroes/Cacto.png')">
+          <div class="hero-thumbnail" onclick="updateHero('Cacto', 'Has a 60% chance to return damage to the attacker (up to 25 damage)', 'img/Heroes/Cacto.png')">
             <img src="img/HeroesThumbnail/cacto_t3.png" alt="Hero 6">
           </div>
         </div>
@@ -224,22 +225,22 @@
       <div class="hero-group-header">
         <h3>Support</h3>
         <div class="hero-group">
-          <div class="hero-thumbnail" onmouseenter="updateHero('Healthy angel', 'Gives +15 bonus health to ally within 1 tile range per action\n'+
+          <div class="hero-thumbnail" onclick="updateHero('Healthy angel', 'Gives +15 bonus health to ally within 1 tile range per action\n'+
 'Heals all allies by 60 when killed \n'+
 'Does not work with any ally Spicy devil!', 'img/Heroes/Angel.png')">
             <img src="img/HeroesThumbnail/healthy_angel_t3.png" alt="Hero 3">
           </div>
-          <div class="hero-thumbnail" onmouseenter="updateHero('Spicy devil', '+10 additional damage to neighbors per action \n'+
+          <div class="hero-thumbnail" onclick="updateHero('Spicy devil', '+10 additional damage to neighbors per action \n'+
 'Returns 60 damage to its killer\n'+
 'Does not increase damage with Angel on your side', 'img/Heroes/Devil.png')">
             <img src="img/HeroesThumbnail/spicy_devil_t3.png" alt="Hero 3">
           </div>
-          <div class="hero-thumbnail" onmouseenter="updateHero('Seed', 'Heals all allies within 1 tile range by 25 per action \n'+
+          <div class="hero-thumbnail" onclick="updateHero('Seed', 'Heals all allies within 1 tile range by 25 per action \n'+
 '10% chance of critical 3x heal\n'+
 'Heal weakens by 2  for every ally within 1 tile range', 'img/Heroes/Seed.png')">
             <img src="img/HeroesThumbnail/seed_t3.png" alt="Hero 3">
           </div>
-          <div class="hero-thumbnail" onmouseenter="updateHero('Sunny', 'Gives speed to allies within 2 tiles at the round start and per action\n'+
+          <div class="hero-thumbnail" onclick="updateHero('Sunny', 'Gives speed to allies within 2 tiles at the round start and per action\n'+
 'Reduses attack speed of allies within 1 tile by 0.6 on death', 'img/Heroes/Sunny.png')">
             <img src="img/HeroesThumbnail/sunny_t3.png" alt="Hero 3">
           </div>
@@ -255,9 +256,9 @@
       <h1>Screenshots</h1>
     </div>
     <div class="screenshot-container">
-      <img src="img/screenshots/Screen-01.png" class="screenshot thumbnail" alt="screenshot">
-      <img src="img/screenshots/Screen-02.png" class="screenshot thumbnail" alt="screenshot">
-      <img src="img/screenshots/Screen-03.png" class="screenshot thumbnail" alt="screenshot">
+      <img src="img/screenshots/Screen-01.png" class="screenshot thumbnail" alt="screenshot" loading="lazy">
+      <img src="img/screenshots/Screen-02.png" class="screenshot thumbnail" alt="screenshot" loading="lazy">
+      <img src="img/screenshots/Screen-03.png" class="screenshot thumbnail" alt="screenshot" loading="lazy">
     </div>
     <div id="imageModal" class="modal -control">
       <span class="close">&times;</span>
