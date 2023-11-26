@@ -1,8 +1,6 @@
 <!doctype html>
 <!--<html lang="en-EN" prefix="og: https://ogp.me/ns#">-->
 <html lang="en-EN">
-
-
 <head>
   <meta charset="utf-8">
 
@@ -15,6 +13,8 @@
   <link rel="stylesheet" href="css/Heroes.css">
   <link rel="stylesheet" href="css/banners.css">
   <link rel="stylesheet" href="css/sidebar.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha384-eCLckM62yBfoJ7EKO9F1ZnVy8NjFfiBYfCzZc36N1c8IfwO0e4BrD4zFzxx4FiuN" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/burger-test.css">
   <link rel="shortcut icon" href="/favicon.ico">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.c{om" crossorigin>
@@ -78,27 +78,8 @@
     <p>Activate promo code in game .<br> Go to settings enter promo code and click activate.</p>
   </div>
 </div>
-
-<div class="container regrow-page-menu">
-    <a href="index.html">
-      <img src="img/theoretical-studio-logo-white.svg" alt="Theoretical Studio logo" class="studio-logo">
-    </a>
-  <div>
-    <a href="regrow-privacy-policy.html" target="_blank">Privacy policy</a>
-    <a href="support.html" target="_blank">Support</a>
-    <a href="account.html" target="_blank">Delete account</a>
-  </div>
-</div>
-
-<!--<div class="top-bar">-->
-<!--  <a href="index.html">-->
-<!--    <img src="img/theoretical-studio-logo.svg" alt="Theoretical Studio logo" class="studio-logo">-->
-<!--  </a>-->
-<!--  <a href="about.html" class="page-text-button">About company</a>-->
-<!--</div>-->
-
 <div class="sidebar" id="sidebar">
-<!--  <button class="toggle-btn" onclick="toggleSidebar()">Toggle Sidebar</button>-->
+  <!--  <button class="toggle-btn" onclick="toggleSidebar()">Toggle Sidebar</button>-->
   <div class="sidebar-content">
     <span>Subscribe!</span>
     <div class="social-list">
@@ -117,24 +98,62 @@
     </div>
   </div>
 </div>
+<header class="top-nav">
+  <div>
+    <img src="img/theoretical-studio-logo-white.svg" alt="Theoretical Studio logo" class="studio-logo">
+  </div>
+  <input id="menu-toggle" type="checkbox" />
+  <label class='menu-button-container' for="menu-toggle">
+    <div class='menu-button'></div>
+  </label>
+  <ul class="menu">
+    <li>
+      <a href="regrow-privacy-policy.html" target="_blank">Privacy policy</a>
+    </li>
+    <li>
+      <a href="support.html" target="_blank">Support</a>
+    </li>
+    <li>
+      <a href="account.html" target="_blank">Delete account</a>
+    </li>
+  </ul>
+</header>
+<!--<div class="container regrow-page-menu">-->
+<!--    <a href="index.html">-->
+<!--      <img src="img/theoretical-studio-logo-white.svg" alt="Theoretical Studio logo" class="studio-logo">-->
+<!--    </a>-->
+<!--  <div>-->
+<!--    <a href="regrow-privacy-policy.html" target="_blank">Privacy policy</a>-->
+<!--    <a href="support.html" target="_blank">Support</a>-->
+<!--    <a href="account.html" target="_blank">Delete account</a>-->
+<!--  </div>-->
+<!--</div>-->
+
+<!--<div class="top-bar">-->
+<!--  <a href="index.html">-->
+<!--    <img src="img/theoretical-studio-logo.svg" alt="Theoretical Studio logo" class="studio-logo">-->
+<!--  </a>-->
+<!--  <a href="about.html" class="page-text-button">About company</a>-->
+<!--</div>-->
+<!--<input type="checkbox" id="" class="menu-toggle">-->
 <body class="wrapper-regrow">
 <section class="fullscreen-section">
   <div class="video-container">
     <video width="100%" height="100%" muted="muted" class="hero-video" loop="loop" autoplay="" poster="img/regrow-bg.webp"> <source src="img/En2.mp4" type="video/mp4"><track src="captions_en.vtt" kind="captions" srclang="en" label="english_captions"></video>
   </div>
   <div class="container hero-block">
-      <div class="hero-active-block">
-        <img src="img/regrow-logo.svg" alt="Regrow logo" class="game-logo-big">
-        <div class="hero-button-container">
-          <a href="https://apps.apple.com/ru/app/regrow/id1609515393" class="store-button" id="appStore" >
-            <img src="img/appstore-button.svg" alt="AppStore button">
-          </a>
-          <a href="https://play.google.com/store/apps/details?id=com.TheoreticalStudio.Regrow" class="store-button" id="googlePlay">
-            <img src="img/googleplay-button.svg" alt="Play Market button">
-          </a>
-        </div>
+    <div class="hero-active-block">
+      <img src="img/regrow-logo.svg" alt="Regrow logo" class="game-logo-big">
+      <div class="hero-button-container">
+        <a href="https://apps.apple.com/ru/app/regrow/id1609515393" class="store-button" id="appStore">
+          <img src="img/appstore-button.svg" alt="AppStore button">
+        </a>
+        <a href="https://play.google.com/store/apps/details?id=com.TheoreticalStudio.Regrow" class="store-button" id="googlePlay">
+          <img src="img/googleplay-button.svg" alt="Play Market button">
+        </a>
       </div>
-      <iframe src="https://www.youtube.com/embed/VXtQat3H5Yk" title="Regrow" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture;" allowfullscreen class="trailer"></iframe>
+    </div>
+    <iframe src="https://www.youtube.com/embed/VXtQat3H5Yk" title="Regrow" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture;" allowfullscreen="" class="trailer"></iframe>
   </div>
 </section>
 <section class="heroes-section">
@@ -337,7 +356,6 @@
   <script src="js/devicecheck.js"></script>
   <script src="js/main.js"></script>
 <script src="js/sidebar.js"></script>
-
 <!-- Google Tag Manager (noscript) -->
 <noscript>
   <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MJ4968FH"
