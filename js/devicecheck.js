@@ -23,13 +23,13 @@ document.addEventListener("DOMContentLoaded", function() {
   var appStore = document.getElementById("appStore");
   var googlePlay = document.getElementById("googlePlay");
 
-  var platform = navigator.platform.toLowerCase();
-  var userAgent = navigator.userAgent.toLowerCase();
-  var isAndroid = ua.indexOf("android") > -1; //&& ua.indexOf("mobile");
-
-  var isAppleDevice = /iphone|ipad|ipod/.test(platform);
-  var isAndroidDevice = /android/.test(platform);
-  var isDesktop = !isAppleDevice && !isAndroidDevice;
+  // var platform = navigator.platform.toLowerCase();
+  // var userAgent = navigator.userAgent.toLowerCase();
+  // var isAndroid = ua.indexOf("android") > -1; //&& ua.indexOf("mobile");
+  //
+  // var isAppleDevice = /iphone|ipad|ipod/.test(platform);
+  // var isAndroidDevice = /android/.test(platform);
+  // var isDesktop = !isAppleDevice && !isAndroidDevice;
 
 const platform = getMobileOperatingSystem();
   if (platform === "iOS") {
