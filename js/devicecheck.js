@@ -31,16 +31,42 @@ document.addEventListener("DOMContentLoaded", function() {
   var isAndroidDevice = /android/.test(platform);
   var isDesktop = !isAppleDevice && !isAndroidDevice;
 
-
-  if (isAppleDevice) {
+const platform = getMobileOperatingSystem();
+  if (platform === "iOS") {
     appStore.classList.add("on");
     googlePlay.classList.add("off");
-  } else if (isAndroidDevice) {
+  } else if (platform === "Android") {
     appStore.classList.add("off");
     googlePlay.classList.add("on");
-  } else if (isDesktop) {
+  } else{
     appStore.classList.add("on");
     googlePlay.classList.add("on");
   }
 });
 
+
+/**
+ * Determine the mobile operating system.
+ * This function returns one of 'iOS', 'Android', 'Windows Phone', or 'unknown'.
+ *
+ * @returns {String}
+ */
+function getMobileOperatingSystem() {
+  var userAgent = navigator.userAgent || navigator.vendor || window.opera;
+
+  // Windows Phone must come first because its UA also contains "Android"
+  if (/windows phone/i.test(userAgent)) {
+    return "Windows Phone";
+  }
+
+  if (/android/i.test(userAgent)) {
+    return "Android";
+  }
+
+  // iOS detection from: http://stackoverflow.com/a/9039885/177710
+  if (/iPad|iPhone|iPod/.test(userAgent) && !window.MSStream) {
+    return "iOS";
+  }
+
+  return "unknown";
+}
