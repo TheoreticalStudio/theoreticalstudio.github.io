@@ -1,6 +1,5 @@
-<!doctype html>
-<html lang="en" prefix="og: https://ogp.me/ns#">
-
+<!DOCTYPE html>
+<html lang="en">
 <head>
   <meta charset="utf-8">
 
@@ -8,8 +7,10 @@
   <link rel="manifest" href="site.webmanifest">
   <link rel="apple-touch-icon" href="icon.png">
   <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/index.css">
   <link rel="shortcut icon" href="/favicon.ico">
+  <link rel="stylesheet" href="css/adaptive.css">
+  <link rel="stylesheet" href="css/top-menu.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
@@ -29,42 +30,60 @@
 
   <script src="js/main.js"></script>
 </head>
-<body>
-<div class="wrapper">
-  <div class="top-bar">
+<header class="top-nav top-menu-index">
     <a href="index.html">
-      <img src="img/theoretical-studio-logo.svg" alt="Theoretical Studio logo" class="studio-logo">
+      <img src="img/theoretical-studio-logo-white.svg" alt="Theoretical Studio logo" class="studio-logo">
     </a>
-    <a href="about.html" class="page-text-button">About company</a>
-  </div>
-  <div class="games-list">
-    <div class="games-container">
-      <a class="game-card bg-card-regrow2" href="regrow.html">
-        <img src="img/regrow-logo.svg" class="game-logo-middle" alt="Regrow logo">
-        <div class="game-card-info">
-          <img src="img/icon-apple.svg" class="platform-icon" alt="ios">
-          <img src="img/icon-android.svg" class="platform-icon" alt="android">
+  <input id="menu-toggle" type="checkbox" />
+  <label class='menu-button-container' for="menu-toggle">
+    <div class='menu-button'></div>
+  </label>
+  <ul class="menu">
+    <li>
+      <a href="about.html" target="_blank">About company</a>
+    </li>
+  </ul>
+</header>
+<body class="full-height wrapper">
+<section class="full-height">
+  <div class="new-container">
+    <div class="half-block">
+      <div class="game-info-block game-info-block-regrow">
+        <img src="img/regrow-logo.svg" class="game-logo" alt="Regrow logo">
+        <a href="regrow.html" class="off-site-button">Explore</a>
+        <div class="games-button-container">
+          <a href="https://apps.apple.com/ru/app/regrow/id1609515393" class="store-button">
+            <img src="img/appstore-button.svg" alt="AppStore button">
+          </a>
+          <a href="https://play.google.com/store/apps/details?id=com.TheoreticalStudio.Regrow" class="store-button">
+            <img src="img/googleplay-button.svg" alt="Play Market button">
+          </a>
         </div>
-      </a>
-      <a class="game-card bg-card-save-the-fluffy" href="#">
-        <img src="img/save-the-fluffy-logo.svg" class="game-logo-middle" alt="Save the Fluffy logo">
-        <div class="game-card-info">
-          <img src="img/icon-apple.svg" class="platform-icon" alt="ios">
-          <img src="img/icon-android.svg" class="platform-icon" alt="android">
+      </div>
+      <video width="100%" class="traier-main" height="100%" muted="muted" loop="loop" autoplay="" poster="img/regrow-bg.webp"> <source src="img/En2.mp4" type="video/mp4"><track src="captions_en.vtt" kind="captions" srclang="en" label="english_captions"></video>
+    </div>
+    <div class="half-block">
+      <div class="game-info-block game-info-block-stf">
+        <img src="img/save-the-fluffy-logo.svg" class="game-logo" alt="Regrow logo">
+        <a href="" class="off-site-button">Explore</a>
+        <div class="games-button-container">
+          <a href="https://apps.apple.com/ru/app/regrow/id1609515393" class="store-button" >
+            <img src="img/appstore-button.svg" alt="AppStore button">
+          </a>
+          <a href="https://play.google.com/store/apps/details?id=com.TheoreticalStudio.Regrow" class="store-button">
+            <img src="img/googleplay-button.svg" alt="Play Market button">
+          </a>
         </div>
-      </a>
+      </div>
+      <video width="100%" class="traier-main" height="100%" muted="muted" loop="loop" autoplay="" poster="img/Save%20the%20Fluffy%20android%20trailer.mp4"> <source src="img/Save%20the%20Fluffy%20android%20trailer.mp4" type="video/mp4"><track src="captions_en.vtt" kind="captions" srclang="en" label="english_captions"></video>
+    </div>
+    <div class="half-block-none">
+      <div class="game-info-block">
+        <h1>Coming soon</h1>
+      </div>
+    </div>
     </div>
   </div>
-</div>
+</section>
 </body>
 </html>
-
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-FZK15BT4W8"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-FZK15BT4W8');
-</script>

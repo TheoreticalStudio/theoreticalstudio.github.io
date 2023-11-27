@@ -8,21 +8,32 @@ header{
   justify-content: center;
 }
 
-.top-nav {
+.studio-logo {
+  width: auto;
+  height: 34px;
+}
+
+.top-menu-regrow{
   backdrop-filter: blur(24px);
   -webkit-backdrop-filter: blur(24px);
-  position: fixed;
+  background-color: rgba(0, 0, 0, 0.61);
+}
+
+.top-menu-index{
+  background-color: black;
+  position: fixed !important;
+}
+
+
+.top-nav {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  background-color: rgba(0, 0, 0, 0.61);
-  /*background: linear-gradient(to left, #f46b45, #eea849);*/
-  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  /*color: #FFF;*/
-  height: 50px;
+  height: 4rem;
   padding: 1em;
   z-index: 1;
+  position: absolute;
 }
 
 .menu {
@@ -44,7 +55,6 @@ header{
   color: #ffffff;
 }
 
-
 .menu-button-container {
   display: none;
   height: 100%;
@@ -63,7 +73,7 @@ header{
 .menu-button::before,
 .menu-button::after {
   display: block;
-  background-color: #fff;
+  background-color: rgb(255, 255, 255);
   position: absolute;
   height: 4px;
   width: 30px;

@@ -1,0 +1,150 @@
+*{
+  box-sizing: border-box;
+}
+html {
+  color: #222;
+  font-size: 1em;
+  /*line-height: 1.4;*/
+  height: 100%;
+  /*font-family: 'Open Sans', sans-serif;*/
+  font-family: 'Exo 2', sans-serif;
+  background: #fafafa;
+
+  line-height: 1.15; /* 1 */
+  -webkit-text-size-adjust: 100%; /* 2 */
+}
+
+body {
+  margin: 0;
+  /*height: 100%;*/
+}
+.game-fader{
+  opacity: 0.1;
+}
+
+.game-fader:hover{
+  cursor: pointer;
+  opacity: 0.5;
+}
+
+.half-block{
+  /*width: 50%;*/
+  flex-grow: 1;
+  min-height: 100vh;
+  position: relative;
+  transition: all 0.4s ease-in-out;
+}
+
+
+.half-block-none{
+  /*width: 50%;*/
+  min-width: 400px;
+}
+
+.half-block:hover{
+  animation: linear;
+  transition: all 0.4s ease-in-out;
+  flex-grow: 8;
+}
+
+.full-width{
+  width: 100vw;
+}
+
+.full-height{
+  height:100vh;
+}
+
+.new-container{
+  display: flex;
+  /*gap:clamp(2px,4vw,4px);*/
+  width: 100%;
+  height: 100%;
+}
+.traier-main{;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+  z-index: -1;
+}
+
+.game-background{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.game-info-block{
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 10vh 20%;
+  z-index: 2;
+  cursor: pointer;
+}
+
+.game-info-block-regrow{
+  background-color: rgba(0, 0, 0, 0.92);
+  background-image: url("../img/regrow-bg.webp");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+
+.game-info-block-stf{
+  background-color: rgba(0, 0, 0, 0.92);
+  background-image: url("../img/safethefluffy-bg.webp");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+
+.game-logo{
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  max-height: 160px;
+}
+.games-button-container{
+  display: flex;
+  flex-direction: row;
+  /*flex-wrap: wrap;*/
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  scale: 0.7;
+  opacity: 0.6;
+}
+
+
+.game-info-block:hover{
+  background-color: rgba(0, 0, 0, 0);
+  background-image: url();
+}
+
+
+.off-site-button{
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  text-decoration: none;
+  text-align: center;
+  display: flex;
+  font-size: 1.5rem;
+  color: #000000;
+  padding: 1rem;
+  border-radius: 1rem;
+  font-weight: 900;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 1px 4px 19.2px 7px rgba(8, 8, 25, 0.25);
+}
+
+.off-site-button:hover{
+  scale: 1.1;
+}

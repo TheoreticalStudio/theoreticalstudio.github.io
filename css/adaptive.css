@@ -26,6 +26,10 @@
   .games-list {
     height: 100% !important;
   }
+  .new-container{
+    display: flex;
+    flex-wrap: wrap;
+  }
 }
 
 @media screen and (min-width: 767px) {
@@ -122,6 +126,14 @@
 
   .page-navigation-container {
     /*flex-direction: column;*/
+  }
+  .half-block{
+    width: 100%;;
+  }
+
+  .game-info-block{
+    background-image: none;
+    background-color: rgba(0, 0, 0, 0.80);
   }
 }
 

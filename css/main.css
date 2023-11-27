@@ -125,11 +125,6 @@ section{
   gap: 2rem;
 }
 
-.studio-logo {
-  width: auto;
-  height: 34px;
-}
-
 .stage {
   width: 100%;
   align-items: center;
