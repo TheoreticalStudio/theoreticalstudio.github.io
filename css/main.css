@@ -726,6 +726,8 @@ footer {
   min-height: 200px;
   background-color: #cccccc;
   border-radius: 100%;
+  aspect-ratio: 1.1;
+  object-fit: cover;
 }
 
 .team-members>* {
