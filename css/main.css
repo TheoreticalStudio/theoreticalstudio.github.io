@@ -22,18 +22,19 @@ body {
 }
 
 h1 {
-  font-size: 3rem;
+  font-size: clamp(2rem,5vh,3rem);
   margin-top: 0.67em;
-  margin-bottom: 0;
+  margin-bottom: 0.67em;
 }
 
 h2{
-  font-size: 2rem;
+  font-size: clamp(1rem,5vh,2rem);
   margin-bottom: 0;
 }
 h3{
   font-size: 1.5rem;
   margin-bottom: 0;
+  margin-top: 0;
 }
 
 li {
@@ -782,3 +783,53 @@ footer {
   min-width: 200px;
   height: auto;
 }
+
+.update-section{
+  background-color: #000000;
+  color: white;
+  padding: 2rem 0;
+}
+
+.update-thumbnail{
+  width: 100%;
+  max-width: 600px;
+  /*min-width: 400px;*/
+  height: auto;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  color: white;
+}
+.update-thumbnail span{
+  opacity: 0.5;
+}
+.update-container{
+  padding-bottom: 2rem;
+}
+
+.update-img{
+  width: 100%;
+  border-radius: 1rem;
+}
+
+.update-array{
+  grid-gap: clamp(1rem,10vw,2rem) 2rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px,1fr));
+  /*display: flex;*/
+  /*flex-direction: row;*/
+  /*gap: 1rem;*/
+  /*flex-wrap: wrap;*/
+
+}
+
+.update-background-img{
+  width: 100%;
+  height: auto;
+}
+
+/*.update-container{*/
+/*  overflow-y: scroll;*/
+/*  width: 100%;*/
+/*}*/
