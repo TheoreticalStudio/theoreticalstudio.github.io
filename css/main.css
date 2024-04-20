@@ -57,7 +57,9 @@ p {
   word-break: break-word;
 }
 
-
+a {
+  font-weight: 500;
+}
 
 
 
