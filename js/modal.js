@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", function() {
   var closeModalBtn = document.getElementById("closeModalBtn");
 
   openModalBtn.addEventListener("click", function() {
-    modal.style.display = "block";
+    modal.style.display = "flex";
     openModalBtn.style.display = "none";
   });
 
