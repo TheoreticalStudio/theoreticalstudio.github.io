@@ -109,6 +109,13 @@ body {
   background-size: cover;
 }
 
+.game-info-block-ctg{
+  background-color: rgba(0, 0, 0, 0.92);
+  background-image: url("../img/catchgame-bg.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
 
 .game-logo{
   width: 100%;
