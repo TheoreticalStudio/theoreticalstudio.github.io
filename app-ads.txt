@@ -457,7 +457,6 @@ eliteappgrade.com, 494223, RESELLER
 conversantmedia.com, 100358, RESELLER, 03113cd04947736d
 pubnative.net, 1008379, RESELLER, d641df8625486a7b
 
-# Yandex
 yandex.com, 105801376, DIRECT
 betweendigital.com, 43554, RESELLER
 openx.com, 541177349, RESELLER, 6a698e2ec38604c6
@@ -923,7 +922,6 @@ bigo.sg, 196, RESELLER
 pubnative.net, 1009485, RESELLER, d641df8625486a7b
 openx.com, 540543195, RESELLER, 6a698e2ec38604c6
 
-# Yandex CatchGame  RuStore
 yandex.com, 105801376, DIRECT
 betweendigital.com, 43554, RESELLER
 openx.com, 541177349, RESELLER, 6a698e2ec38604c6
