@@ -1,7 +1,7 @@
 {
-  "title": "Oops",
+  "title": "Important information",
   "image_url": "https://theoretical.studio/ps-mails/img/update.jpg",
-  "body": "Test",
+  "body": "Hi! Due to unforeseen server maintenance issue some of the game data have been lost. Unfortunately, the progress of some players may have been lost entirely.\nWe deeply and profusely apologise to all of you for such a turn of events. This will never happen again.\nThat's why ALL players will receive our complimentary bundle containing 120 000 gold, Cepheus leader and an exclusive avatar!\nPlease tap the Restore progress button in this letter to get to a page where you will be able to Restore your purchases, get your complimentary bundle and fill in a form if some of your purchases were not restored properly\nWe are deeply sorry and promise never to allow such issue to ever come up again",
   "button_text": "Restore",
   "button_link": "pocketsquad://?screen=restore"
 }

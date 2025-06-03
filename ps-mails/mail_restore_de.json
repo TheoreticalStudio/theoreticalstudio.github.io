@@ -1,0 +1,7 @@
+{
+  "title": "Wichtige Informationen",
+  "image_url": "https://theoretical.studio/ps-mails/img/update.jpg",
+  "body": "Hallo! Aufgrund unvorhergesehener Serverwartungen sind einige Spieldaten verloren gegangen. Leider ist der Fortschritt einiger Spieler möglicherweise vollständig verloren gegangen.\nWir entschuldigen uns zutiefst für diesen Vorfall. So etwas wird nie wieder passieren.\nDeshalb erhalten ALLE Spieler unser kostenloses Paket mit 120.000 Gold, dem Cepheus-Anführer und einem exklusiven Avatar!\nBitte tippe in diesem Brief auf die Schaltfläche „Fortschritt wiederherstellen“, um zu einer Seite zu gelangen, auf der du deine Käufe wiederherstellen, dein kostenloses Paket erhalten und ein Formular ausfüllen kannst, falls einige deiner Käufe nicht ordnungsgemäß wiederhergestellt wurden.\nEs tut uns sehr leid und wir versprechen, dass ein solches Problem nie wieder auftritt.",
+  "button_text": "Wiederherstellen",
+  "button_link": "pocketsquad://?screen=restore"
+}
