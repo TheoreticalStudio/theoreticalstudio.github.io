@@ -1,7 +1,7 @@
 {
   "title": "Información importante",
-  "image_url": "https://theoretical.studio/ps-mails/img/update.jpg",
+  "image_url": "https://theoretical.studio/ps-mails/img/restore.jpg",
   "body": "¡Hola! Debido a un problema imprevisto de mantenimiento del servidor, se han perdido algunos datos del juego. Lamentablemente, es posible que el progreso de algunos jugadores se haya perdido por completo.\nNos disculpamos profundamente por esta situación. Esto no volverá a ocurrir.\nPor eso, todos los jugadores recibirán nuestro paquete de cortesía con 120 000 de oro, el líder Cepheus y un avatar exclusivo.\nPulsa el botón \"Restaurar progreso\" en esta carta para acceder a una página donde podrás restaurar tus compras, obtener tu paquete de cortesía y completar un formulario si alguna de tus compras no se restauró correctamente.\nLo sentimos mucho y prometemos no permitir que este problema vuelva a ocurrir.",
   "button_text": "Restaurar",
-  "button_link": "pocketsquad://?screen=restore"
+  "button_link": "pocketsquad://app?screen=restore"
 }
