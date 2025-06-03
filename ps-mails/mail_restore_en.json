@@ -1,0 +1,7 @@
+{
+  "title": "Oops",
+  "image_url": "https://theoretical.studio/ps-mails/img/update.jpg",
+  "body": "Test",
+  "button_text": "Restore",
+  "button_link": "pocketsquad://?screen=restore"
+}
