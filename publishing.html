@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/top-menu.css">
+    <link rel="stylesheet" href="css/publishing.css">
+    <link rel="stylesheet" href="css/adaptive.css">
+    <link rel="apple-touch-icon" href="icon.png">
+    <link rel="manifest" href="site.webmanifest">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+    <meta name="theme-color" content="#fafafa">
+    <title>Издательство игр | Theoretical Studio</title>
+</head>
+<body>
+    <header class="top-nav top-menu-index">
+        <a href="index.html">
+            <img src="img/theoretical-studio-logo-white.svg" alt="Theoretical Studio logo" class="studio-logo">
+        </a>
+        <input id="menu-toggle" type="checkbox" />
+        <label class='menu-button-container' for="menu-toggle">
+            <div class='menu-button'></div>
+        </label>
+        <ul class="menu">
+            <li>
+                <a href="publishing.html" class="active">Издательство</a>
+            </li>
+            <li>
+                <a href="jobs.html">Jobs</a>
+            </li>
+            <li>
+                <a href="about.html">About us</a>
+            </li>
+        </ul>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="container">
+                <div class="logo-container">
+                    <img src="img/theoretical-studio-logo-white.svg" alt="Theoretical Studio Logo" class="logo">
+                </div>
+                <h1>Продвигаем и издаём игры и приложения</h1>
+                <p class="hero-description">Тщательно анализируем результаты, грамотно поддерживаем в развитии и монетизизации вашего продукта</p>
+                <div class="hero-stats">
+                    <div class="stat-item">
+                        <span class="stat-number" data-target="40000">0</span>
+                        <span class="stat-label">Активных игроков</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number" data-target="6">0</span>
+                        <span class="stat-label">Успешных проектов</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">24/7</span>
+                        <span class="stat-label">Поддержка команд</span>
+                    </div>
+                </div>
+                <a href="https://forms.gle/xNpDZdC1n8LtUCVN7" target="_blank" class="cta-button">Связаться с нами</a>
+            </div>
+        </section>
+
+        <!-- Infinite Scroll Gallery -->
+        <section class="scroll-gallery">
+            <div class="scroll-container">
+                <div class="scroll-track">
+                    <!-- Первый набор изображений -->
+                    <div class="scroll-item">
+                        <img src="img/pocket-squad-logo.svg" alt="Pocket Squad Logo">
+                    </div>
+                    <div class="scroll-item">
+                        <img src="img/pocket-squad-logo.svg" alt="Pocket Squad Logo">
+                    </div>
+                    <div class="scroll-item">
+                        <img src="img/pocket-squad-logo.svg" alt="Pocket Squad Logo">
+                    </div>
+                    <div class="scroll-item">
+                        <img src="img/pocket-squad-logo.svg" alt="Pocket Squad Logo">
+                    </div>
+                    <div class="scroll-item">
+                        <img src="img/pocket-squad-logo.svg" alt="Pocket Squad Logo">
+                    </div>
+                    <!-- Дублированный набор для бесконечного скролла -->
+                    <div class="scroll-item">
+                        <img src="img/pocket-squad-logo.svg" alt="Pocket Squad Logo">
+                    </div>
+                    <div class="scroll-item">
+                        <img src="img/pocket-squad-logo.svg" alt="Pocket Squad Logo">
+                    </div>
+                    <div class="scroll-item">
+                        <img src="img/pocket-squad-logo.svg" alt="Pocket Squad Logo">
+                    </div>
+                    <div class="scroll-item">
+                        <img src="img/pocket-squad-logo.svg" alt="Pocket Squad Logo">
+                    </div>
+                    <div class="scroll-item">
+                        <img src="img/pocket-squad-logo.svg" alt="Pocket Squad Logo">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Us Section -->
+        <section class="about-section">
+            <div class="container">
+                <h2>О нас</h2>
+                <p class="about-description">Theoretical Studio — мы не безликое издательство, а команда таких же разработчиков. Начинали с game jamов (около 40 шт), знаем, как сложно пробиться, и понимаем, что значит работать над игрой днями и ночами, вкладывая в неё душу. Именно поэтому хочется помогать другим талантливым командам пройти этот путь и сделать игру, которая найдёт своих игроков.</p>
+            </div>
+        </section>
+
+        <!-- Services Section
+        <section class="services-section">
+            <div class="container">
+                <h2 class="section-title">Наши услуги</h2>
+                <div class="services-grid">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <img src="img/publishing-icon.svg" alt="Publishing Icon">
+                        </div>
+                        <h3>Издательство</h3>
+                        <p>Полный цикл издания игр: от анализа проекта до запуска и поддержки</p>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <img src="img/promotion-icon.svg" alt="Promotion Icon">
+                        </div>
+                        <h3>Продвижение</h3>
+                        <p>Эффективные маркетинговые стратегии и оптимизация монетизации</p>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <img src="img/consulting-icon.svg" alt="Consulting Icon">
+                        </div>
+                        <h3>Консалтинг</h3>
+                        <p>Профессиональные консультации по развитию и масштабированию проектов</p>
+                    </div>
+                </div>
+            </div>
+        </section> -->
+
+        <!-- Games Title Section -->
+        <section class="games-title-section">
+            <div class="container">
+                <h2 class="section-title">Наши игры</h2>
+                <p class="section-subtitle">Мы ищем уникальные проекты с потенциалом для широкой аудитории</p>
+            </div>
+        </section>
+
+        <!-- Games Section -->
+        <section class="games-section">
+            <!-- Background Video -->
+            <div class="game-background">
+                <video id="background-video" class="background-video" muted loop playsinline>
+                    <source src="" type="video/mp4">
+                </video>
+            </div>
+
+            <div class="games-showcase">
+                <!-- Game Icons -->
+                <div class="game-icons">
+                    <div class="game-icon-item active" data-game="pocket-squad">
+                        <div class="game-icon-wrapper">
+                            <img src="img/icons/pocket-squad-icon.webp" alt="Pocket Squad" class="game-icon">
+                        </div>
+                    </div>
+                    <div class="game-icon-item" data-game="save-fluffy">
+                        <div class="game-icon-wrapper">
+                            <img src="img/icons/save-the-fluffy-icon.webp" alt="Save the Fluffy" class="game-icon">
+                        </div>
+                    </div>
+                    <div class="game-icon-item" data-game="rise-monster">
+                        <div class="game-icon-wrapper">
+                            <img src="img/icons/rise-monster-masters-icon.webp" alt="Rise Monster Master" class="game-icon">
+                        </div>
+                    </div>
+                    <div class="game-icon-item" data-game="unreleased">
+                        <div class="game-icon-wrapper">
+                            <img src="img/icons/unreleased-game.svg" alt="Unreleased Game" class="game-icon">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Game Content -->
+                <div class="game-content-wrapper">
+                    <!-- Game Info -->
+                    <div class="game-info">
+                        <h3 id="game-title"></h3>
+                        <p id="game-description"></p>
+                        <div class="downloads" id="game-downloads"></div>
+                        <div id="game-platforms"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- How We Work Section -->
+        <section class="how-we-work fullwidth">
+            <div class="container">
+                <h2>Как мы работаем?</h2>
+                <div class="work-process-grid">
+                    <div class="work-step">
+                        <div class="step-number">1</div>
+                        <h3>Аудит</h3>
+                        <p>Анализируем вашу игру или приложение: тематику, конкурентов, UI/UX дизайн, показатели CPI, Retention и принимаем решение о продвижении</p>
+                    </div>
+                    <div class="work-step">
+                        <div class="step-number">2</div>
+                        <h3>Трафик и установки</h3>
+                        <p>Делаем предложение в формате взаимовыгодного сотрудничества - вы получаете установки и пользователей своей игры или приложения</p>
+                    </div>
+                    <div class="work-step">
+                        <div class="step-number">3</div>
+                        <h3>Поддержка</h3>
+                        <p>Индивидуальная работа с каждой командой или разработчиком, которые получают маркетинговую поддержку (в том числе — и экспертную), доступ к аналитике и сервисам</p>
+                    </div>
+                    <div class="work-step">
+                        <div class="step-number">4</div>
+                        <h3>Экспертиза</h3>
+                        <p>Услуги по ASO оптимизации любых приложений, аудиты текущего состояния продукта, маркетинговые тесты и обеспечиваем трафик игры или приложения</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact-section fullwidth">
+            <div class="container">
+                <h2>Начните сотрудничество</h2>
+                <p>Готовы обсудить ваш проект? Свяжитесь с нами!</p>
+                <a href="https://forms.gle/xNpDZdC1n8LtUCVN7" target="_blank" class="cta-button">Отправить заявку</a>
+            </div>
+        </section>
+    </main>
+
+    <button id="back-to-top" class="back-to-top" aria-label="Наверх">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M12 4L4 12H9V20H15V12H20L12 4Z" fill="currentColor"/>
+        </svg>
+    </button>
+
+    <script>
+        const backToTopButton = document.getElementById('back-to-top');
+        
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 1000) {
+                backToTopButton.classList.add('visible');
+            } else {
+                backToTopButton.classList.remove('visible');
+            }
+        });
+        
+        backToTopButton.addEventListener('click', () => {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        });
+    </script>
+
+    <script src="js/vendor/modernizr-3.11.2.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/publishing.js"></script>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-links">
+                <a href="about.html">О компании</a>
+                <a href="support.html">Поддержка</a>
+                <a href="jobs.html">Вакансии</a>
+            </div>
+            <p>&copy; 2025 Theoretical Studio. Все права защищены.</p>
+        </div>
+    </footer>
+</body>
+</html>

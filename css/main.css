@@ -14,12 +14,13 @@ html {
 
   line-height: 1.15; /* 1 */
   -webkit-text-size-adjust: 100%; /* 2 */
+  scroll-behavior: smooth;
 }
 *::-webkit-scrollbar {
   width: 0.8rem;
   height: 0.8rem;
-}
 
+}
 *::-webkit-scrollbar-track {
   /*box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);*/
   background-color: rgb(0, 0, 0);
@@ -27,9 +28,9 @@ html {
 *::-webkit-scrollbar-thumb:horizontal{
   background-color: #5d5d5d;
   height: 0.5rem;
+
+
 }
-
-
 *::-webkit-scrollbar-thumb:hover {
   background-color: #b4b4b4;
 }
@@ -45,6 +46,51 @@ html {
 body {
   margin: 0;
   /*height: 100%;*/
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  width: 100%;
+}
+
+.hero-section {
+  padding: 60px 0;
+  text-align: center;
+}
+
+.services {
+  padding: 40px 0;
+}
+
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+  margin-top: 40px;
+}
+
+.service-card {
+  background: #fff;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-section {
+  padding: 60px 0;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 0 15px;
+  }
+  
+  .services-grid {
+    grid-template-columns: 1fr;
+  }
 }
 
 h1 {
@@ -167,7 +213,7 @@ section{
   background: #fafafa;
   align-items: center;
   position: fixed;
-  z-index: 1000;
+  z-index: 10000;
   gap: 2rem;
 }
 
@@ -861,7 +907,7 @@ td{
   display: grid;
   /*grid-template-columns: 100px 1fr 400px;*/
   grid-template-columns: repeat(2, 1fr);
-  /*grid-template-columns: repeat(auto-fill, minmax(400px,1fr));*/
+  /*grid-template-columns: repeat(auto-fit, minmax(400px,1fr));*/
   grid-gap: 1rem;
   /*grid-template-columns: repeat(auto-fit, minmax(100px, 300px));*/
   /*display: flex;*/
@@ -966,3 +1012,138 @@ td{
 .privacy-top-padding{
   padding-top: 2rem;
 }
+
+/* How We Work section */
+.how-we-work {
+    background-color: #fff;
+    padding: 100px 0;
+}
+
+.work-process-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+    margin-top: 60px;
+}
+
+.work-step {
+    background: #f9f9f9;
+    padding: 40px;
+    border-radius: 24px;
+    position: relative;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.work-step:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.step-number {
+    position: absolute;
+    top: -20px;
+    left: 40px;
+    width: 40px;
+    height: 40px;
+    background: #000;
+    color: #fff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.work-step h3 {
+    font-size: 1.5rem;
+    margin: 10px 0 20px;
+    color: #000;
+}
+
+.work-step p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #555;
+    margin: 0;
+}
+
+@media (max-width: 968px) {
+    .work-process-grid {
+        grid-template-columns: 1fr;
+        gap: 50px;
+    }
+}
+
+@media (max-width: 768px) {
+    .how-we-work {
+        padding: 60px 0;
+    }
+
+    .work-step {
+        padding: 30px;
+    }
+
+    .step-number {
+        width: 35px;
+        height: 35px;
+        font-size: 1rem;
+    }
+
+    .work-step h3 {
+        font-size: 1.3rem;
+        margin: 5px 0 15px;
+    }
+
+    .work-step p {
+        font-size: 1rem;
+    }
+}
+
+/* Full-width sections */
+.fullwidth {
+    width: 100%;
+    max-width: none;
+}
+
+.fullwidth .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Section titles */
+section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: #000;
+}
+
+.section-subtitle {
+    max-width: 800px;
+    margin: 0 auto 60px;
+    font-size: 1.2rem;
+    line-height: 1.6;
+    color: #555;
+}
+
+@media (max-width: 768px) {
+    section h2 {
+        font-size: 2rem;
+    }
+
+    .section-subtitle {
+        font-size: 1.1rem;
+        margin-bottom: 40px;
+    }
+
+    .fullwidth .container {
+        padding: 0 15px;
+    }
+}
+
+/* Navigation */
+/* Removed */
+
+/* Mobile Navigation */
+/* Removed */
