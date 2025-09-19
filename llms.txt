@@ -1,0 +1,36 @@
+# Theoretical Studio - mobile inde game deve studio.
+
+
+## Our games
+- **Pocket Squad**: A fresh and exciting auto-battler where you collect unique creatures, build a team, and battle other players. Each creature you find can be enhanced to become stronger, bigger, and more adorable! Collect creatures from melons, combine them to create the ultimate team, and compete against others. Available on App Store and Google Play.
+- **Rise Monster Masters**: An exciting game about a cute monster who loves cookies! Collect and develop monsters, engage in thrilling battles, and discover the amazing world of Rise Monster Masters. Available on App Store and Google Play.
+- **Save the Fluffy**: A charming puzzle game where you help fluffy creatures overcome obstacles and find their way to safety.
+- **Secret project**: Exciting new games currently in development.
+
+## About company
+Headquartered in Almaty but operating globally, we've built a strong remote work culture that values flexibility, communication, and results.
+
+## Our Story
+Founded in 2019, Theoretical Studio is a global video game development studio headquartered in Almaty, Kazakhstan. With a passionate team of 10+ talented individuals, we've been making waves in the gaming industry with our innovative approach to game development. Despite our relatively recent establishment, our team brings together a wealth of experience and creativity to the table.
+
+## Our Team
+Our friendly, tight-knit team is the heart of Theoretical Studio. We work remotely from around the world, bringing together diverse talents and perspectives to create exceptional gaming experiences. From our leadership team to our creative professionals, every member plays a vital role in our success.
+
+## Our Journey
+The studio emerged from a rich history of game jams, including Ludum Dare and GMTK, where we created over 30 games. This hands-on experience in rapid development and creative problem-solving laid the foundation for our professional game development journey.
+
+### Continuous Learning
+With roots in game jams and a passion for innovation, we're constantly learning and evolving our craft to stay at the forefront of game development.
+
+## Our Values
+- **Passion for Gaming**: We're gamers at heart, and it shows in everything we create.
+- **Collaboration**: We believe the best games are made through teamwork and shared vision.
+- **Innovation**: We're not afraid to take risks and try new approaches to game design.
+- **Quality**: We're committed to delivering polished, engaging experiences that exceed player expectations.
+- **Community**: We value our players and actively seek their feedback to improve our games.
+
+## Contact Us
+We're always interested in hearing from players and potential partners. Feel free to reach out to us with any questions or collaboration opportunities.
+
+- **Email**: [your-email@theoretical.studio](mailto:your-email@theoretical.studio)
+- **Website**: [theoretical.studio](https://theoretical.studio)
