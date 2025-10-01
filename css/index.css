@@ -30,7 +30,7 @@ body {
 
 .half-block{
   /*width: 50%;*/
-  flex-grow: 1;
+  flex-grow: 2;
   min-height: 100vh;
   position: relative;
   transition: all 0.4s ease-in-out;
@@ -49,6 +49,7 @@ body {
   transition: all 0.4s ease-in-out;
   flex-grow: 8;
   /*opacity: 100%;*/
+  /*opacity:100%;*/
 }
 
 .full-width{
@@ -94,7 +95,7 @@ body {
 
 .game-info-block-regrow{
   background-color: rgba(0, 0, 0, 0.92);
-  background-image: url("../img/regrow-bg.webp");
+  background-image: url("../img/games/pocket_squad/regrow-bg.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -103,7 +104,7 @@ body {
 
 .game-info-block-stf{
   background-color: rgba(0, 0, 0, 0.92);
-  background-image: url("../img/safethefluffy-bg.webp");
+  background-image: url("../img/games/stf/safethefluffy-bg.jpg");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -111,7 +112,15 @@ body {
 
 .game-info-block-ctg{
   background-color: rgba(0, 0, 0, 0.92);
-  background-image: url("../img/catchgame-bg.png");
+  background-image: url("../img/games/rise/catchgame-bg.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.game-info-block-pfc{
+  background-color: rgba(0, 0, 0, 0.92);
+  background-image: url("../img/games/pfc/pfc_thumbnail.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -138,23 +147,26 @@ body {
 
 .game-info-block:hover{
   background-color: rgba(0, 0, 0, 0);
-  background-image: url();
+  background-image: url(..);
 }
 
 
 .off-site-button{
+  /*width: 100%;*/
+  align-items: center;
+  text-align: center;
+  display: flex;
+  justify-content: center;
   text-transform: uppercase;
   letter-spacing: 0.1rem;
   text-decoration: none;
-  text-align: center;
-  display: flex;
   font-size: 1.5rem;
   color: #000000;
   padding: 1rem 2rem;
-  border-radius: 1rem;
+  border-radius: 0.5rem;
   font-weight: 900;
   background-color: rgb(255, 255, 255);
-  box-shadow: 1px 4px 19.2px 7px rgba(8, 8, 25, 0.25);
+  box-shadow: 1px 4px 19px 7px rgba(8, 8, 25, 0.25);
 }
 
 .off-site-button:hover{

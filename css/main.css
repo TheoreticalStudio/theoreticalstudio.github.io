@@ -87,7 +87,7 @@ body {
   .container {
     padding: 0 15px;
   }
-  
+
   .services-grid {
     grid-template-columns: 1fr;
   }
@@ -294,29 +294,29 @@ section{
 
 .game-logo-big {
   width: 100%;
-  max-width: 500px;
+  max-width: 400px;
 
   height: auto;
 }
 
 .bg-card-regrow {
-  background-image: url("../img/regrow-bg.webp");
+  background-image: url("../img/games/pocket_squad/regrow-bg.webp");
 }
 
 .bg-card-regrow2 {
-  background-image: url("../img/regrow-bg.webp");
+  background-image: url("../img/games/pocket_squad/regrow-bg.webp");
 }
 
 .bg-card-save-the-fluffy {
-  background-image: url("../img/safethefluffy-bg.webp");
+  background-image: url("../img/games/stf/safethefluffy-bg.webp");
 }
 
 .bg-card-safefluffy2 {
-  background-image: url("../img/safethefluffy-bg.webp");
+  background-image: url("../img/games/stf/safethefluffy-bg.webp");
 }
 
 .thumbnail-regrow {
-  background-image: url("../img/banner-regrow.webp");
+  background-image: url("../img/games/pocket_squad/banner-regrow.webp");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -324,14 +324,14 @@ section{
 }
 
 .thumbnail-safethefluffy {
-  background-image: url("../img/banner-safethefluffy.webp");
+  background-image: url("../img/games/stf/banner-safethefluffy.webp");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
 
 .follow-regrow {
-  background-image: url("../img/regrow-follow.webp");
+  background-image: url("../img/games/pocket_squad/regrow-follow.webp");
   background-size: 70% auto;
   background-repeat: no-repeat;
   background-position: -10% 15%;
@@ -444,6 +444,9 @@ footer {
 
 .store-button {
   transition: all 0.1s ease-in-out;
+  width: 100%;
+  max-width: 190px;
+  height: auto;
 }
 
 .store-button:hover {
