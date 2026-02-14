@@ -1,4 +1,5 @@
 google.com, pub-2643824263994728, DIRECT, f08c47fec0942fa0
+facebook.com, 200034596440808, DIRECT, c3e20eee3f780d68
 ironsrc.com, admin@theoretical.studio, Direct
 rubiconproject.com, 24400, RESELLER, 0bfd66d529a55807
 video.unrulymedia.com, 2464975885, RESELLER
