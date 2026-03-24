@@ -7,6 +7,8 @@ ironsrc.com, 522191, DIRECT
 unity.com, 3201312, DIRECT, 96cabb5fbdde37a7
 yandex.com, 105801376, DIRECT
 yango-ads.com, 105801376, DIRECT
+yandex.com, 105881134, DIRECT
+yango-ads.com, 105881134, DIRECT
 
 # ironsrc authorized resellers
 blueseasx.com, 203625, RESELLER
